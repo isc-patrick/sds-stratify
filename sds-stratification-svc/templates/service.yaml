@@ -1,15 +1,18 @@
+{{- if eq (toString .Values.management.enabled) "true" }}
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "sds-stratification-svc.fullname" . }}
+  name: connectors-python
+  namespace: {{.Release.Name}}
   labels:
-    {{- include "sds-stratification-svc.labels" . | nindent 4 }}
+    app: connectors-python
+    
 spec:
-  type: {{ .Values.service.type }}
-  ports:
-    - port: {{ .Values.service.port }}
-      targetPort: http
-      protocol: TCP
-      name: http
   selector:
-    {{- include "sds-stratification-svc.selectorLabels" . | nindent 4 }}
+    app: connectors-python
+  ports:
+    - name: management
+      port: {{ .Values.management.port }}
+      targetPort: 8000
+  type: LoadBalancer
+{{- end }}
