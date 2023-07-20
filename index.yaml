@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  sds-stratification-svc:
+  - annotations:
+      intersystems/sds-category: custo
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: My New Nginx SDS Service
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-07-20T15:46:49.115879-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 5b2787e8b9d9950db0e57c6a5cac366373af06f2880912b87f77599499b68d39
+    name: sds-stratification-svc
+    type: application
+    urls:
+    - https://isc-patrick.github.io/sds-stratification/sds-stratification-svc-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-07-20T15:46:49.114442-05:00"
