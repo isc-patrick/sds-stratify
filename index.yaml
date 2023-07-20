@@ -7,12 +7,12 @@ entries:
       intersystems/sds-title: Stratification Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-20T16:13:52.407804-05:00"
+    created: "2023-07-20T18:18:59.082876-05:00"
     description: A Helm chart for Kubernetes
-    digest: 9b3604faa65a959fc88eaa5e16612c3d9efdfea089080ac39340d3a048bae869
+    digest: 3c429d4077a327d411414c86178aa9a4a5f6df26750abeefdaf4209c10dbfeab
     name: sds-stratification-svc
     type: application
     urls:
     - https://isc-patrick.github.io/sds-stratification/sds-stratification-svc-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-20T16:13:52.406292-05:00"
+generated: "2023-07-20T18:18:59.081463-05:00"
