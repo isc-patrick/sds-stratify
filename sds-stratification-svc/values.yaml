@@ -10,8 +10,8 @@ compute:
     memory: 2Gi
 
 image:
-  registry: containers.intersystems.com/iscinternal/fs-athena-base:latest
-  repository: sds-stratification
+  registry: containers.intersystems.com/iscinternal
+  repository: fs-athena-base 
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
