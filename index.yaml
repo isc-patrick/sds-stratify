@@ -6,13 +6,13 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: Stratification Service
     apiVersion: v2
-    appVersion: "0.1"
-    created: "2023-07-21T13:45:23.900298-05:00"
+    appVersion: "0.10"
+    created: "2023-07-21T15:19:52.151006-05:00"
     description: Stratification Service
-    digest: 7b515ab7c7f90b2dcd05b8e3b4b911996042ddb1158862ff6cab436bbd8f4fb3
+    digest: 63425722651398c30a3c4a47b8825eb0c1a4d3eecdb33d9d0a68dc47a648f954
     name: sds-stratification
     type: application
     urls:
     - https://isc-patrick.github.io/sds-stratification/sds-stratification-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-21T13:45:23.899345-05:00"
+generated: "2023-07-21T15:19:52.149435-05:00"

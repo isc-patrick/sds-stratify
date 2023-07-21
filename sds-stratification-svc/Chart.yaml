@@ -3,7 +3,7 @@ annotations:
   intersystems/sds-organization: InterSystems Corporation
   intersystems/sds-category: custom
 apiVersion: v2
-appVersion: "0.11"
+appVersion: "0.10"
 description: Stratification Service
 name: sds-stratification
 type: application
