@@ -6,7 +6,7 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: Stratification Service
     apiVersion: v2
-    appVersion: "0.11"
+    appVersion: "0.1"
     created: "2023-07-21T13:45:23.900298-05:00"
     description: Stratification Service
     digest: 7b515ab7c7f90b2dcd05b8e3b4b911996042ddb1158862ff6cab436bbd8f4fb3
