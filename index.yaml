@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  sds-connectors-python:
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: Stratification Service
+    apiVersion: v2
+    appVersion: "0.1"
+    created: "2023-07-21T07:41:50.50004-05:00"
+    description: Stratification Service
+    digest: 4cc1c8ecbd0e27f89cbfc62c9ee5047eb2a38cd75912eef6836ee28525a499a0
+    name: sds-connectors-python
+    type: application
+    urls:
+    - https://isc-patrick.github.io/sds-stratification/sds-connectors-python-0.1.0.tgz
+    version: 0.1.0
   sds-stratification-svc:
   - annotations:
       intersystems/sds-category: custo
@@ -7,7 +22,7 @@ entries:
       intersystems/sds-title: Stratification Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-20T18:36:42.020707-05:00"
+    created: "2023-07-21T07:41:50.5007-05:00"
     description: A Helm chart for Kubernetes
     digest: 78f87192879fd7d2b85dcc076a1960135abe94c6ca057be0e12358dbb4db3216
     name: sds-stratification-svc
@@ -15,4 +30,4 @@ entries:
     urls:
     - https://isc-patrick.github.io/sds-stratification/sds-stratification-svc-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-20T18:36:42.01751-05:00"
+generated: "2023-07-21T07:41:50.498836-05:00"
