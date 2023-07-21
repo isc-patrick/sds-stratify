@@ -3,8 +3,8 @@ annotations:
   intersystems/sds-organization: InterSystems Corporation
   intersystems/sds-category: custom
 apiVersion: v2
-appVersion: "0.1"
+appVersion: "0.11"
 description: Stratification Service
-name: sds-connectors-python
+name: sds-stratification
 type: application
 version: 0.1.0
