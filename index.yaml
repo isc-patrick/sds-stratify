@@ -1,18 +1,18 @@
 apiVersion: v1
 entries:
-  sds-stratification:
+  stratification:
   - annotations:
       intersystems/sds-category: custom
       intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: Stratification Service
+      intersystems/sds-title: SDS Stratification Service
     apiVersion: v2
     appVersion: "0.1"
-    created: "2023-08-07T13:44:00.064075-04:00"
-    description: Stratification Service
-    digest: a4fddd387b7c5567c626aa765ace95d5b9fbae37dd1aa78cd0a975a4aaeeb1e5
-    name: sds-stratification
+    created: "2023-09-20T15:46:18.232579-04:00"
+    description: A Helm chart for the stratification service
+    digest: 90a50cbfda015c184d94a5d3ed24e2e7ea58f451f7579db2c18b017abb7819f3
+    name: stratification
     type: application
     urls:
-    - https://isc-patrick.github.io/sds-stratification/sds-stratification-0.1.0.tgz
+    - stratification-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-07T13:44:00.063338-04:00"
+generated: "2023-09-20T15:46:18.231723-04:00"
